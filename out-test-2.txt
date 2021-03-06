@@ -1,0 +1,537 @@
+   Queue 1:        closed...
+   Queue 2:        closed...
+   Queue 3:        closed...
+   Queue 4:        closed...
+   Queue 5:        closed...
+
+----------------------------
+Simultation Timer started for: 60 seconds...
+Initial list of clients: (1, 17, 7) (2, 2, 7) (3, 9, 7) (4, 14, 1) (5, 2, 7) (6, 22, 6) (7, 12, 2) (8, 20, 1) (9, 12, 4) (10, 31, 7) (11, 9, 4) (12, 18, 6) (13, 36, 7) (14, 33, 7) (15, 13, 6) (16, 38, 4) (17, 11, 1) (18, 33, 2) (19, 35, 3) (20, 3, 6) (21, 39, 3) (22, 27, 2) (23, 35, 7) (24, 10, 3) (25, 15, 5) (26, 5, 6) (27, 31, 4) (28, 35, 4) (29, 24, 1) (30, 29, 4) (31, 35, 1) (32, 20, 1) (33, 6, 5) (34, 36, 7) (35, 34, 3) (36, 14, 6) (37, 40, 2) (38, 16, 2) (39, 7, 1) (40, 37, 2) (41, 27, 6) (42, 7, 4) (43, 32, 1) (44, 8, 6) (45, 38, 3) (46, 36, 3) (47, 13, 6) (48, 36, 2) (49, 9, 1) (50, 6, 2) 
+----------------------------
+
+Timer: 1
+   Queue 1: 
+   Queue 2: 
+   Queue 3: 
+   Queue 4: 
+   Queue 5: 
+
+Timer: 2
+   Queue 1: 
+   Queue 2: 
+   Queue 3: 
+   Queue 4: 
+   Queue 5: 
+        (2, 2, 7) was added in Queue 1!
+        (5, 2, 7) was added in Queue 2!
+
+Timer: 3
+   Queue 1: (2, 2, 7) 
+   Queue 2: (5, 2, 7) 
+   Queue 3: 
+   Queue 4: 
+   Queue 5: 
+        (20, 3, 6) was added in Queue 3!
+
+Timer: 4
+   Queue 1: (2, 2, 7) 
+   Queue 2: (5, 2, 7) 
+   Queue 3: (20, 3, 6) 
+   Queue 4: 
+   Queue 5: 
+
+Timer: 5
+   Queue 1: (2, 2, 7) 
+   Queue 2: (5, 2, 7) 
+   Queue 3: (20, 3, 6) 
+   Queue 4: 
+   Queue 5: 
+        (26, 5, 6) was added in Queue 4!
+
+Timer: 6
+   Queue 1: (2, 2, 7) 
+   Queue 2: (5, 2, 7) 
+   Queue 3: (20, 3, 6) 
+   Queue 4: (26, 5, 6) 
+   Queue 5: 
+        (33, 6, 5) was added in Queue 5!
+        (50, 6, 2) was added in Queue 5!
+
+Timer: 7
+   Queue 1: (2, 2, 7) 
+   Queue 2: (5, 2, 7) 
+   Queue 3: (20, 3, 6) 
+   Queue 4: (26, 5, 6) 
+   Queue 5: (33, 6, 5) (50, 6, 2) 
+        (39, 7, 1) was added in Queue 3!
+        (42, 7, 4) was added in Queue 3!
+
+Timer: 8
+   Queue 1: (2, 2, 7) 
+   Queue 2: (5, 2, 7) 
+   Queue 3: (20, 3, 6) (42, 7, 4) (39, 7, 1) 
+   Queue 4: (26, 5, 6) 
+   Queue 5: (33, 6, 5) (50, 6, 2) 
+        (44, 8, 6) was added in Queue 4!
+
+Timer: 9
+   Queue 1: (2, 2, 7) 
+   Queue 2: (5, 2, 7) 
+   Queue 3: (20, 3, 6) (42, 7, 4) (39, 7, 1) 
+   Queue 4: (26, 5, 6) (44, 8, 6) 
+   Queue 5: (33, 6, 5) (50, 6, 2) 
+        (11, 9, 4) was added in Queue 1!
+        (3, 9, 7) was added in Queue 2!
+        (49, 9, 1) was added in Queue 5!
+        Finished serving task 20!
+        Finished serving task 5!
+        Finished serving task 2!
+
+Timer: 10
+   Queue 1: (11, 9, 4) 
+   Queue 2: (3, 9, 7) 
+   Queue 3: (42, 7, 4) (39, 7, 1) 
+   Queue 4: (26, 5, 6) (44, 8, 6) 
+   Queue 5: (33, 6, 5) (50, 6, 2) (49, 9, 1) 
+        (24, 10, 3) was added in Queue 5!
+
+Timer: 11
+   Queue 1: (11, 9, 4) 
+   Queue 2: (3, 9, 7) 
+   Queue 3: (42, 7, 4) (39, 7, 1) 
+   Queue 4: (26, 5, 6) (44, 8, 6) 
+   Queue 5: (33, 6, 5) (50, 6, 2) (49, 9, 1) (24, 10, 3) 
+        (17, 11, 1) was added in Queue 5!
+        Finished serving task 33!
+        Finished serving task 26!
+
+Timer: 12
+   Queue 1: (11, 9, 4) 
+   Queue 2: (3, 9, 7) 
+   Queue 3: (42, 7, 4) (39, 7, 1) 
+   Queue 4: (44, 8, 6) 
+   Queue 5: (50, 6, 2) (49, 9, 1) (24, 10, 3) (17, 11, 1) 
+        (9, 12, 4) was added in Queue 3!
+        (7, 12, 2) was added in Queue 5!
+
+Timer: 13
+   Queue 1: (11, 9, 4) 
+   Queue 2: (3, 9, 7) 
+   Queue 3: (42, 7, 4) (39, 7, 1) (9, 12, 4) 
+   Queue 4: (44, 8, 6) 
+   Queue 5: (50, 6, 2) (49, 9, 1) (24, 10, 3) (17, 11, 1) (7, 12, 2) 
+        (15, 13, 6) was added in Queue 1!
+        Finished serving task 50!
+        (47, 13, 6) was added in Queue 4!
+        Finished serving task 42!
+        Finished serving task 11!
+
+Timer: 14
+   Queue 1: (15, 13, 6) 
+   Queue 2: (3, 9, 7) 
+   Queue 3: (39, 7, 1) (9, 12, 4) 
+   Queue 4: (44, 8, 6) (47, 13, 6) 
+   Queue 5: (49, 9, 1) (24, 10, 3) (17, 11, 1) (7, 12, 2) 
+        (4, 14, 1) was added in Queue 2!
+        (36, 14, 6) was added in Queue 5!
+        Finished serving task 49!
+        Finished serving task 39!
+
+Timer: 15
+   Queue 1: (15, 13, 6) 
+   Queue 2: (3, 9, 7) (4, 14, 1) 
+   Queue 3: (9, 12, 4) 
+   Queue 4: (44, 8, 6) (47, 13, 6) 
+   Queue 5: (24, 10, 3) (17, 11, 1) (7, 12, 2) (36, 14, 6) 
+        (25, 15, 5) was added in Queue 2!
+
+Timer: 16
+   Queue 1: (15, 13, 6) 
+   Queue 2: (3, 9, 7) (4, 14, 1) (25, 15, 5) 
+   Queue 3: (9, 12, 4) 
+   Queue 4: (44, 8, 6) (47, 13, 6) 
+   Queue 5: (24, 10, 3) (17, 11, 1) (7, 12, 2) (36, 14, 6) 
+        (38, 16, 2) was added in Queue 4!
+        Finished serving task 3!
+
+Timer: 17
+   Queue 1: (15, 13, 6) 
+   Queue 2: (4, 14, 1) (25, 15, 5) 
+   Queue 3: (9, 12, 4) 
+   Queue 4: (44, 8, 6) (47, 13, 6) (38, 16, 2) 
+   Queue 5: (24, 10, 3) (17, 11, 1) (7, 12, 2) (36, 14, 6) 
+        (1, 17, 7) was added in Queue 3!
+        Finished serving task 24!
+        Finished serving task 44!
+        Finished serving task 4!
+
+Timer: 18
+   Queue 1: (15, 13, 6) 
+   Queue 2: (25, 15, 5) 
+   Queue 3: (9, 12, 4) (1, 17, 7) 
+   Queue 4: (47, 13, 6) (38, 16, 2) 
+   Queue 5: (17, 11, 1) (7, 12, 2) (36, 14, 6) 
+        (12, 18, 6) was added in Queue 1!
+        Finished serving task 17!
+        Finished serving task 9!
+
+Timer: 19
+   Queue 1: (15, 13, 6) (12, 18, 6) 
+   Queue 2: (25, 15, 5) 
+   Queue 3: (1, 17, 7) 
+   Queue 4: (47, 13, 6) (38, 16, 2) 
+   Queue 5: (7, 12, 2) (36, 14, 6) 
+        Finished serving task 15!
+
+Timer: 20
+   Queue 1: (12, 18, 6) 
+   Queue 2: (25, 15, 5) 
+   Queue 3: (1, 17, 7) 
+   Queue 4: (47, 13, 6) (38, 16, 2) 
+   Queue 5: (7, 12, 2) (36, 14, 6) 
+        (8, 20, 1) was added in Queue 4!
+        (32, 20, 1) was added in Queue 5!
+        Finished serving task 7!
+
+Timer: 21
+   Queue 1: (12, 18, 6) 
+   Queue 2: (25, 15, 5) 
+   Queue 3: (1, 17, 7) 
+   Queue 4: (47, 13, 6) (38, 16, 2) (8, 20, 1) 
+   Queue 5: (36, 14, 6) (32, 20, 1) 
+
+Timer: 22
+   Queue 1: (12, 18, 6) 
+   Queue 2: (25, 15, 5) 
+   Queue 3: (1, 17, 7) 
+   Queue 4: (47, 13, 6) (38, 16, 2) (8, 20, 1) 
+   Queue 5: (36, 14, 6) (32, 20, 1) 
+        (6, 22, 6) was added in Queue 4!
+        Finished serving task 25!
+   Queue 2:        closed...
+
+Timer: 23
+   Queue 1: (12, 18, 6) 
+   Queue 2: 
+   Queue 3: (1, 17, 7) 
+   Queue 4: (47, 13, 6) (38, 16, 2) (8, 20, 1) (6, 22, 6) 
+   Queue 5: (36, 14, 6) (32, 20, 1) 
+        Finished serving task 47!
+
+Timer: 24
+   Queue 1: (12, 18, 6) 
+   Queue 2: 
+   Queue 3: (1, 17, 7) 
+   Queue 4: (38, 16, 2) (8, 20, 1) (6, 22, 6) 
+   Queue 5: (36, 14, 6) (32, 20, 1) 
+        (29, 24, 1) was added in Queue 5!
+
+Timer: 25
+   Queue 1: (12, 18, 6) 
+   Queue 2: 
+   Queue 3: (1, 17, 7) 
+   Queue 4: (38, 16, 2) (8, 20, 1) (6, 22, 6) 
+   Queue 5: (36, 14, 6) (32, 20, 1) (29, 24, 1) 
+        Finished serving task 38!
+        Finished serving task 1!
+   Queue 3:        closed...
+        Finished serving task 12!
+   Queue 1:        closed...
+
+Timer: 26
+   Queue 1: 
+   Queue 2: 
+   Queue 3: 
+   Queue 4: (8, 20, 1) (6, 22, 6) 
+   Queue 5: (36, 14, 6) (32, 20, 1) (29, 24, 1) 
+        Finished serving task 36!
+        Finished serving task 8!
+
+Timer: 27
+   Queue 1: 
+   Queue 2: 
+   Queue 3: 
+   Queue 4: (6, 22, 6) 
+   Queue 5: (32, 20, 1) (29, 24, 1) 
+        (22, 27, 2) was added in Queue 2!
+        (41, 27, 6) was added in Queue 2!
+        Finished serving task 32!
+
+Timer: 28
+   Queue 1: 
+   Queue 2: (22, 27, 2) (41, 27, 6) 
+   Queue 3: 
+   Queue 4: (6, 22, 6) 
+   Queue 5: (29, 24, 1) 
+        Finished serving task 29!
+   Queue 5:        closed...
+
+Timer: 29
+   Queue 1: 
+   Queue 2: (22, 27, 2) (41, 27, 6) 
+   Queue 3: 
+   Queue 4: (6, 22, 6) 
+   Queue 5: 
+        (30, 29, 4) was added in Queue 3!
+        Finished serving task 22!
+
+Timer: 30
+   Queue 1: 
+   Queue 2: (41, 27, 6) 
+   Queue 3: (30, 29, 4) 
+   Queue 4: (6, 22, 6) 
+   Queue 5: 
+
+Timer: 31
+   Queue 1: 
+   Queue 2: (41, 27, 6) 
+   Queue 3: (30, 29, 4) 
+   Queue 4: (6, 22, 6) 
+   Queue 5: 
+        (10, 31, 7) was added in Queue 5!
+        (27, 31, 4) was added in Queue 1!
+
+Timer: 32
+   Queue 1: (27, 31, 4) 
+   Queue 2: (41, 27, 6) 
+   Queue 3: (30, 29, 4) 
+   Queue 4: (6, 22, 6) 
+   Queue 5: (10, 31, 7) 
+        (43, 32, 1) was added in Queue 3!
+        Finished serving task 6!
+   Queue 4:        closed...
+
+Timer: 33
+   Queue 1: (27, 31, 4) 
+   Queue 2: (41, 27, 6) 
+   Queue 3: (30, 29, 4) (43, 32, 1) 
+   Queue 4: 
+   Queue 5: (10, 31, 7) 
+        (14, 33, 7) was added in Queue 3!
+        (18, 33, 2) was added in Queue 1!
+        Finished serving task 30!
+
+Timer: 34
+   Queue 1: (27, 31, 4) (18, 33, 2) 
+   Queue 2: (41, 27, 6) 
+   Queue 3: (43, 32, 1) (14, 33, 7) 
+   Queue 4: 
+   Queue 5: (10, 31, 7) 
+        (35, 34, 3) was added in Queue 2!
+        Finished serving task 43!
+
+Timer: 35
+   Queue 1: (27, 31, 4) (18, 33, 2) 
+   Queue 2: (41, 27, 6) (35, 34, 3) 
+   Queue 3: (14, 33, 7) 
+   Queue 4: 
+   Queue 5: (10, 31, 7) 
+        (28, 35, 4) was added in Queue 5!
+        (23, 35, 7) was added in Queue 1!
+
+        Finished serving task 41!
+Timer: 36
+        Finished serving task 27!
+        (31, 35, 1) was added in Queue 4!
+   Queue 1:         (19, 35, 3) was added in Queue 4!
+(18, 33, 2) (23, 35, 7) 
+   Queue 2: (35, 34, 3) 
+   Queue 3: (14, 33, 7) 
+   Queue 4: (31, 35, 1) (19, 35, 3) 
+   Queue 5: (10, 31, 7) (28, 35, 4) 
+        (13, 36, 7) was added in Queue 5!
+        (34, 36, 7) was added in Queue 4!
+        (46, 36, 3) was added in Queue 2!
+        (48, 36, 2) was added in Queue 3!
+
+        Finished serving task 31!
+Timer: 37
+   Queue 1: (18, 33, 2) (23, 35, 7) 
+   Queue 2: (35, 34, 3) (46, 36, 3) 
+   Queue 3: (14, 33, 7) (48, 36, 2) 
+   Queue 4: (19, 35, 3) (34, 36, 7) 
+   Queue 5: (10, 31, 7) (28, 35, 4) (13, 36, 7) 
+        (40, 37, 2) was added in Queue 2!
+        Finished serving task 18!
+
+Timer: 38
+   Queue 1: (23, 35, 7) 
+   Queue 2: (35, 34, 3) (46, 36, 3) (40, 37, 2) 
+   Queue 3: (14, 33, 7) (48, 36, 2) 
+   Queue 4: (19, 35, 3) (34, 36, 7) 
+   Queue 5: (10, 31, 7) (28, 35, 4) (13, 36, 7) 
+        (16, 38, 4) was added in Queue 5!
+        (45, 38, 3) was added in Queue 3!
+        Finished serving task 10!
+        Finished serving task 35!
+
+Timer: 39
+   Queue 1: (23, 35, 7) 
+   Queue 2: (46, 36, 3) (40, 37, 2) 
+   Queue 3: (14, 33, 7) (48, 36, 2) (45, 38, 3) 
+   Queue 4: (19, 35, 3) (34, 36, 7) 
+   Queue 5: (28, 35, 4) (13, 36, 7) (16, 38, 4) 
+        (21, 39, 3) was added in Queue 1!
+        Finished serving task 19!
+
+Timer: 40
+   Queue 1: (23, 35, 7) (21, 39, 3) 
+   Queue 2: (46, 36, 3) (40, 37, 2) 
+   Queue 3: (14, 33, 7) (48, 36, 2) (45, 38, 3) 
+   Queue 4: (34, 36, 7) 
+   Queue 5: (28, 35, 4) (13, 36, 7) (16, 38, 4) 
+        (37, 40, 2) was added in Queue 3!
+
+Timer: 41
+   Queue 1: (23, 35, 7) (21, 39, 3) 
+   Queue 2: (46, 36, 3) (40, 37, 2) 
+   Queue 3: (14, 33, 7) (48, 36, 2) (45, 38, 3) (37, 40, 2) 
+   Queue 4: (34, 36, 7) 
+   Queue 5: (28, 35, 4) (13, 36, 7) (16, 38, 4) 
+        Finished serving task 14!
+        Finished serving task 46!
+
+Timer: 42
+   Queue 1: (23, 35, 7) (21, 39, 3) 
+   Queue 2: (40, 37, 2) 
+   Queue 3: (48, 36, 2) (45, 38, 3) (37, 40, 2) 
+   Queue 4: (34, 36, 7) 
+   Queue 5: (28, 35, 4) (13, 36, 7) (16, 38, 4) 
+        Finished serving task 28!
+
+Timer: 43
+   Queue 1: (23, 35, 7) (21, 39, 3) 
+   Queue 2: (40, 37, 2) 
+   Queue 3: (48, 36, 2) (45, 38, 3) (37, 40, 2) 
+   Queue 4: (34, 36, 7) 
+   Queue 5: (13, 36, 7) (16, 38, 4) 
+        Finished serving task 48!
+        Finished serving task 40!
+   Queue 2:        closed...
+
+Timer: 44
+   Queue 1: (23, 35, 7) (21, 39, 3) 
+   Queue 2: 
+   Queue 3: (45, 38, 3) (37, 40, 2) 
+   Queue 4: (34, 36, 7) 
+   Queue 5: (13, 36, 7) (16, 38, 4) 
+        Finished serving task 23!
+
+Timer: 45
+   Queue 1: (21, 39, 3) 
+   Queue 2: 
+   Queue 3: (45, 38, 3) (37, 40, 2) 
+   Queue 4: (34, 36, 7) 
+   Queue 5: (13, 36, 7) (16, 38, 4) 
+
+Timer: 46
+   Queue 1: (21, 39, 3) 
+   Queue 2: 
+   Queue 3: (45, 38, 3) (37, 40, 2) 
+   Queue 4: (34, 36, 7) 
+   Queue 5: (13, 36, 7) (16, 38, 4) 
+        Finished serving task 45!
+        Finished serving task 34!
+   Queue 4:        closed...
+
+Timer: 47
+   Queue 1: (21, 39, 3) 
+   Queue 2: 
+   Queue 3: (37, 40, 2) 
+   Queue 4: 
+   Queue 5: (13, 36, 7) (16, 38, 4) 
+        Finished serving task 21!
+   Queue 1:        closed...
+
+Timer: 48
+   Queue 1: 
+   Queue 2: 
+   Queue 3: (37, 40, 2) 
+   Queue 4: 
+   Queue 5: (13, 36, 7) (16, 38, 4) 
+        Finished serving task 37!
+   Queue 3:        closed...
+
+Timer: 49
+   Queue 1: 
+   Queue 2: 
+   Queue 3: 
+   Queue 4: 
+   Queue 5: (13, 36, 7) (16, 38, 4) 
+        Finished serving task 13!
+
+Timer: 50
+   Queue 1: 
+   Queue 2: 
+   Queue 3: 
+   Queue 4: 
+   Queue 5: (16, 38, 4) 
+
+Timer: 51
+   Queue 1: 
+   Queue 2: 
+   Queue 3: 
+   Queue 4: 
+   Queue 5: (16, 38, 4) 
+
+Timer: 52
+   Queue 1: 
+   Queue 2: 
+   Queue 3: 
+   Queue 4: 
+   Queue 5: (16, 38, 4) 
+
+Timer: 53
+   Queue 1: 
+   Queue 2: 
+   Queue 3: 
+   Queue 4: 
+   Queue 5: (16, 38, 4) 
+        Finished serving task 16!
+   Queue 5:        closed...
+
+Timer: 54
+   Queue 1: 
+   Queue 2: 
+   Queue 3: 
+   Queue 4: 
+   Queue 5: 
+
+Timer: 55
+   Queue 1: 
+   Queue 2: 
+   Queue 3: 
+   Queue 4: 
+   Queue 5: 
+
+Timer: 56
+   Queue 1: 
+   Queue 2: 
+   Queue 3: 
+   Queue 4: 
+   Queue 5: 
+
+Timer: 57
+   Queue 1: 
+   Queue 2: 
+   Queue 3: 
+   Queue 4: 
+   Queue 5: 
+
+Timer: 58
+   Queue 1: 
+   Queue 2: 
+   Queue 3: 
+   Queue 4: 
+   Queue 5: 
+
+Timer: 59
+   Queue 1: 
+   Queue 2: 
+   Queue 3: 
+   Queue 4: 
+   Queue 5: 
+
+  Average time for a client to be served is: 3
+
+                                                     -~- 'That's all folks!' -~-
